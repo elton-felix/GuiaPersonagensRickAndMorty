@@ -5,7 +5,9 @@ body{
     background-image: url("https://cdn.hipwallpaper.com/i/60/20/oBEDAb.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    color: #228B22;
+    color:aliceblue;
+    text-shadow: #000 2px 3px 2px;
+   
 }
 
 body > p{
@@ -19,10 +21,6 @@ body > p{
        
 }
 
-
-
-
-
 main {
     align-items: center;
     display: flex;
@@ -30,7 +28,10 @@ main {
     height: 100vh;
     border: none;
     margin-bottom: -100px 0 0;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .personagem1 {
     width: 250px;
@@ -43,8 +44,8 @@ main {
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 800;
+    max-width: 300px;
     
-
 
 }
 
@@ -55,6 +56,8 @@ main {
     margin: 3px;
     border-radius: 50%;
     align-items: center;
+    max-width: 300px;
+    margin-bottom: 4px;
     
 }
 
@@ -64,12 +67,12 @@ main {
     margin: 10px;
     border-radius: 10px;
     align-items: center;
-    justify-content: center;
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 800;
+    max-width: 300px;
 }
 
 .personagem2 > img{
@@ -79,7 +82,7 @@ main {
     margin: 3px;
     border-radius: 50%;
     align-items: center;
-    
+    max-width: 300px;
 }
 
 .personagem3{
@@ -93,6 +96,7 @@ main {
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 800;
+    max-width: 300px;
 
 }
 
@@ -103,6 +107,7 @@ main {
     margin: 3px;
     border-radius: 50%;
     align-items: center;
+    max-width: 300px;
 }
 .personagem4{
     width: 250px;
@@ -112,20 +117,19 @@ main {
     align-items: center;
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    max-width: 300px;
 }
 
-p{
-    display: flex;
-    justify-content:center;
-    color: white;
-}
 
 .personagem4 > img{
     width: 150px;
+    max-width: 300px;
     height: 150px;
     border: none;
     margin: 3px;
     border-radius: 50%;
     align-items: center;
 }
-
