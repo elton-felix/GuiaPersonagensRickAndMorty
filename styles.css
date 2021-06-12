@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("https://cdn.hipwallpaper.com/i/60/20/oBEDAb.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #228B22;
+}
+
+body > p{
+    text-align: center;
+    display: absolute;
+    border: none;
+       font-family: sans-serif;
+       font-size: 30px;
+       font-weight: 800;
+       margin-bottom: -95px;
+       
+}
+
+
+
+
+
+main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    border: none;
+    margin-bottom: -100px 0 0;
+}
+
+.personagem1 {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    
+
+
+}
+
+.personagem1 > img{
+    width: 150px;
+    height: 150px;
+    border: none;
+    margin: 3px;
+    border-radius: 50%;
+    align-items: center;
+    
+}
+
+.personagem2{
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.personagem2 > img{
+    width: 150px;
+    height: 150px;
+    border: none;
+    margin: 3px;
+    border-radius: 50%;
+    align-items: center;
+    
+}
+
+.personagem3{
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.personagem3 > img{
+    width: 150px;
+    height: 150px;
+    border: none;
+    margin: 3px;
+    border-radius: 50%;
+    align-items: center;
+}
+.personagem4{
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    display: flex;
+    justify-content:center;
+    color: white;
+}
+
+.personagem4 > img{
+    width: 150px;
+    height: 150px;
+    border: none;
+    margin: 3px;
+    border-radius: 50%;
+    align-items: center;
+}
+
